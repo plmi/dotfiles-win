@@ -1,0 +1,27 @@
+{
+	"default_workspace_padding": 5,
+	"default_container_padding": 5,
+	"app_specific_configuration_path": "$Env:USERPROFILE/applications.yaml",
+	"border": true,
+	"border_width": 2,
+	"border_offset": -1,
+	"monitors": [
+		{
+			"workspaces": [
+				{
+					"name": "1",
+					"layout": "BSP"
+				},
+				{
+					"name": "2",
+					"layout": "BSP"
+				},
+				{
+					"name": "3",
+					"layout": "BSP"
+				}
+			]
+		}
+	]
+			
+}

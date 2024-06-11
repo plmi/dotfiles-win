@@ -33,3 +33,13 @@ function sha1sum() {
   certUtil -hashfile $filename SHA1 | Select -Index 1
 }
 
+function ll {
+    Get-ChildItem -Force
+}
+
+Set-Alias pwd Get-Location
+Set-Alias cp Copy-Item
+Set-Alias mv Move-Item
+Set-Alias rm Remove-Item
+Set-Alias cat Get-Content
+Set-Alias echo Write-Output
