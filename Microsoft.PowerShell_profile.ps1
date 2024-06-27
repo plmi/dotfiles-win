@@ -38,8 +38,8 @@ function ll {
 }
 
 Set-Alias pwd Get-Location
-Set-Alias cp Copy-Item
+#Set-Alias cp Copy-Item
 Set-Alias mv Move-Item
 Set-Alias rm Remove-Item
 Set-Alias cat Get-Content
-Set-Alias echo Write-Output
+#Set-Alias echo Write-Output
